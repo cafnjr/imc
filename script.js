@@ -9,11 +9,11 @@ function calcular(){
     altura = document.getElementById('altura').value;
     imc = peso/(altura*altura);
     if( peso == ''){
-        alert('Digite seu peso')
+        alert('Digite o seu peso')
         return false;
     }
      else if( altura == ''){
-        alert('Digite sua Altura')
+        alert('Digite a sua Altura')
         return false;
 
     }else if(imc < 17){
